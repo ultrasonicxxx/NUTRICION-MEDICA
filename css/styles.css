@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/BIG\ HEADER.jpg");   
+    background-size: cover;
+    background-position: center;
+}
+
+header nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+header ul a{
+    color: rgb(12, 255, 93);
+    margin: 0 12px;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+header ul a:hover{
+    border-bottom: 1px solid rgb(50, 248, 10);
+}
+
+#hero{
+width: 80%;
+margin: 0 auto;
+text-align: center;
+padding-top: 13%;
+}
+
+#hero h2{
+    font-size: 80px;
+    color: rgb(52, 253, 2);
+    font-weight: 700;
+}
+
+#hero h1{
+    font-size: 45px;
+    color:rgb(227, 252, 4);
+    font-weight: 550;
+    margin-bottom: 50px;
+}
+
+#hero button{
+    background: rgb(164, 250, 4);
+    color: rgb(10, 162, 250);
+    padding: 10px 30px;
+    font-size: 26px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+
+
+#sobrenosotros{
+    width: 100%;
+    position: relative;
+    padding: 120px 0;
+    text-align: center;
+    background: url(../img/persona\ vendedora.jpg)
+}
+
+#sobrenosotros h2{
+    font-size: 50px;
+    color: rgb(255, 7, 7);
+    margin-bottom: 40px;
+}
+
+#sobrenosotros p{
+    color: rgba(243, 13, 13, 0.952);
+    margin-top: 40px;
+    font-size: 22px;
+    margin-bottom: 70px;
+}
+
+
+
+
+#propiedades{
+    width: 100%;
+    position: relative;
+    padding: 120px 0;
+    text-align: center;
+    background-size: cover;
+    background-color: aqua;
+}
+
+#propiedades h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#propiedades p{
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#propiedades .fila{
+    display:flex;
+    justify-content: center;
+}
+
+#propiedades article{
+    margin: 25px 65px;
+    position: relative;
+}
+
+#propiedades article img{
+    transition: .4s;
+}
+
+#propiedades article img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+#asesores{
+    width: 100%;
+    padding: 120px 0 50px;
+    background: black;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#asesores article img{
+    transition: .4s;
+}
+
+#asesores article img:hover{
+    transform: scale(1.1);
+}
+
+#asesores h2{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+#asesores .fila{
+    display: flex;
+    justify-content: center;
+}
+
+#asesores article{
+    margin: 30px 180px;
+}
+
+#asesores h3{
+    margin-top: 11px;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+
+#ubicacion{
+    width: 100%;
+    position: relative;
+    padding: 120px 0;
+    text-align: center;
+    background: rgb(143, 250, 4);
+}
+
+#ubicacion iframe{
+    width: 60%;
+}
+
+#ubicacion h2{
+    font-size: 50px;
+    color: rgb(77, 42, 141);
+    margin-bottom: 60px;
+}
+
+
+
+
+#contacto{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 80px 0;
+    background: rgb(255, 7, 40);
+}
+
+#contacto h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#contacto p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#contacto form{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contacto form input{
+    width: 38%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 20px;
+    background-color: rgb(252, 248, 1);
+}
+
+#contacto form select{
+    width: 43%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 20px;   
+    background-color: rgb(245, 241, 7);
+}
+s
+#contacto button{
+    background: #4d06f3;
+    color: #FFFF00(253, 12, 84);
+    font-size: 22px;
+    padding: 12px 50px;
+    border-radius: 6px;
+}
+
+footer{
+    background: black;
+    color: rgb(144, 9, 255);
+    padding: 40px;
+    text-align: center;
+}
